@@ -7,7 +7,7 @@
 	<category>content</category>
 	<category>plugin</category>
 	<blurb>A beautefull Theme for our loved cgp alumni program</blurb>
-	<description>Theme created by indy. Just a Step forward from the old elgg system</description>
+	<description>Theme created by indy. Just a Step forward from the old elgg system. System based on Easy Theme, thanks to juBo for giving a hand.</description>
 	<website>http://nerdline.de</website>
 	<copyright>indy 2012</copyright>
 	<license>Only created for the cgp alumni network</license>
@@ -15,5 +15,41 @@
 		<type>elgg_release</type>
 		<version>1.8</version>
 	</requires>
-	<activate_on_install>true</activate_on_install>
+
+	<requires>
+		<type>elgg_version</type>
+		<version>2011061200</version>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>profile</plugin>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>groups</plugin>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>messages</plugin>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>search</plugin>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>thewire</plugin>
+	</requires>
+	
+	<suggests>
+		<type>plugin</type>
+		<name>profile</name>
+		<version>1.8</version>
+	</suggests>
+
 </plugin_manifest>
