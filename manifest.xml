@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>CGP Alumni Theme</name>
+	<author>indy</author>
+	<version>alpha</version>
+	<category>theme</category>
+	<category>content</category>
+	<category>plugin</category>
+	<blurb>A beautefull Theme for our loved cgp alumni program</blurb>
+	<description>Theme created by indy. Just a Step forward from the old elgg system</description>
+	<website>http://nerdline.de</website>
+	<copyright>indy 2012</copyright>
+	<license>Only created for the cgp alumni network</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+	<activate_on_install>true</activate_on_install>
+</plugin_manifest>
