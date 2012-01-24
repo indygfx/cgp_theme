@@ -57,7 +57,7 @@ if (elgg_is_active_plugin('groups')) {
 
 
 <div class="et-module-message">
-<?php include elgg_get_data_path() . "easytheme/intro.php"; ?> 
+<?php include elgg_get_data_path() . "cgp_theme/intro.php"; ?> 
 
 </div>
 

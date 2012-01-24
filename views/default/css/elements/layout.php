@@ -1,7 +1,7 @@
 <?php
 /**
  * Page Layout
- ************Changed for EasyTheme (line 25)****************
+ ************Changed for cgp_theme (line 25)****************
  * Contains CSS for the page shell and page layout
  *
  * Default layout: 990px wide, centered. Used in default page shell
@@ -77,7 +77,7 @@
 	min-height: 360px;
 }
 .elgg-layout-one-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/easytheme/graphics/sidebar_background.gif) repeat-y right top;
+	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/cgp_theme/graphics/sidebar_background.gif) repeat-y right top;
 }
 .elgg-layout-two-sidebar {
 	background: transparent url(<?php echo elgg_get_site_url(); ?>_graphics/two_sidebar_background.gif) repeat-y right top;

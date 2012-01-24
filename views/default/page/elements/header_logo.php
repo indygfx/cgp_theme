@@ -10,7 +10,7 @@ $site_url = elgg_get_site_url();
 
 
 <!-- LOGO HERE? -->
-<!-- eg: <img src="<?php echo $vars['url']; ?>mod/easytheme/graphics/logo.gif" /> -->
+<!-- eg: <img src="<?php echo $vars['url']; ?>mod/cgp_theme/graphics/logo.gif" /> -->
 
 
 <h1>

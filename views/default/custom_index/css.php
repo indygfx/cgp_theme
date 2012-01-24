@@ -3,7 +3,7 @@
  * Custom Index CSS
  *
  */
-$etmod = elgg_get_plugin_setting('etmod','easytheme');
+$etmod = elgg_get_plugin_setting('etmod','cgp_theme');
 ?>
 
 /*******************************
