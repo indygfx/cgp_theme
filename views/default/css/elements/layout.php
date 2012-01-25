@@ -31,6 +31,12 @@ $tmplFld =  elgg_get_site_url()."mod/cgp_theme/graphics/";
 	border:				0px solid blue;
 }
 
+#baseHeaderNavigation {
+	width:				993px;
+	margin:				-43px auto 0 auto;
+	border:				0px solid red;
+}
+
 .elgg-page-header ul {
     color: 				#666666;
     font-size: 			11px;
