@@ -8,9 +8,36 @@ $site_name = $site->name;
 $site_url = elgg_get_site_url();
 ?>
 
+<style>
+
+.elgg-page-default {
+
+	width:				100%;
+}
+
+
+
+#baseHeader {
+	width:				100%;
+	background-image:	url('<?php echo elgg_get_site_url(); ?>mod/cgp_theme/graphics/background_pic.jpg');
+	background-repeat:	repeat-x;
+	border:				1px dashed blue;
+	height:				auto;
+}
+
+.elgg-inner,
+.elgg-page-header {
+	width:				100%
+	height:				auto;
+}
+
+</style>
+
+
+
 <!-- Anfang Identity-wrapper -->
 <div id="headerIdentityWrapper">
-		
+	
 	<!-- Anfang Header -->
 	<div id="baseHeader">
 		<a name="seitenanfang" id="seitenanfang" accesskey="O"></a>
