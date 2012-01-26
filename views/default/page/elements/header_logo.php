@@ -9,12 +9,7 @@ $site_url = elgg_get_site_url();
 
 
 ?>
-<!-- <h1>
-	<a class="elgg-heading-site" href="<?php echo $site_url; ?>">
-		<?php echo $site_name; ?>
-	</a>
-</h1>
- -->
+
 	<a name="seitenanfang" id="seitenanfang" accesskey="O"></a>
 
 	<a class="fuImg" href="https://www.fu-berlin.de" accesskey="H" title="To the Homepage of the Freie Universit&auml;t Berlin"></a>
